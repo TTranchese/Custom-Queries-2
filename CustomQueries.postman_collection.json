@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "1b654662-8c76-4dbc-8782-8f8a69dc7769",
+		"name": "CustomQueries",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26099444",
+		"_collection_link": "https://grey-eclipse-85596.postman.co/workspace/My-Workspace~86a21c66-3080-4d38-8c0b-baa024158f96/collection/26099444-1b654662-8c76-4dbc-8782-8f8a69dc7769?action=share&creator=26099444&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "GetFlights",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/flights",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"flights"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostFlights",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/flights",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"flights"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
