@@ -15,14 +15,14 @@ public class Flight {
     @Column
     private String toAirport;
     @Enumerated(EnumType.STRING)
-    private Status flightStatus;
+    private Status status;
     
-    public Status getFlightStatus() {
-        return flightStatus;
+    public Status getStatus() {
+        return status;
     }
     
-    public void setFlightStatus(Status flightStatus) {
-        this.flightStatus = flightStatus;
+    public void setStatus(Status status) {
+        this.status = status;
     }
     
     public Flight() {
